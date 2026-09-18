@@ -18,7 +18,7 @@
             <span class="logo-icon">✦</span>
             <span>TrailBlazeTech</span>
         </div> -->
-        <div class="logo">
+       <div class="logo">
 
     <span class="logo-icon">
 
@@ -34,9 +34,19 @@
                     <stop offset="100%" stop-color="#f9ad69"/>
 
                 </linearGradient>
+
+                <!-- Glow for the signal -->
+                <filter id="signalGlow">
+                    <feGaussianBlur stdDeviation="1.5" result="blur"/>
+                    <feMerge>
+                        <feMergeNode in="blur"/>
+                        <feMergeNode in="SourceGraphic"/>
+                    </feMerge>
+                </filter>
             </defs>
 
-            <!-- T shape -->
+
+            <!-- Main T -->
             <path
                 d="M10 10
                    H54
@@ -50,27 +60,54 @@
                 fill="url(#trailGradient)"
             />
 
-            <!-- Trail / road -->
+
+            <!-- SIGNAL COMING INTO THE T -->
+
             <path
-                d="M27 53
-                   C27 43 34 39 34 32
-                   C34 27 29 24 24 21"
+                d="M4 28
+                   C11 28 14 24 20 24
+                   C23 24 25 25 27 27"
                 fill="none"
                 stroke="white"
-                stroke-width="4"
+                stroke-width="3.5"
+                stroke-linecap="round"
+                filter="url(#signalGlow)"
+            />
+
+
+            <!-- SIGNAL COMING OUT OF THE T -->
+
+            <path
+                d="M37 38
+                   C43 38 47 34 50 29
+                   C52 26 55 24 60 24"
+                fill="none"
+                stroke="white"
+                stroke-width="3.5"
+                stroke-linecap="round"
+                filter="url(#signalGlow)"
+            />
+
+
+            <!-- Small outgoing signal lines -->
+
+            <path
+                d="M49 18
+                   C54 18 57 20 60 23"
+                fill="none"
+                stroke="#f9ad69"
+                stroke-width="2.5"
                 stroke-linecap="round"
             />
 
-            <!-- Small growth arrow -->
             <path
-                d="M34 16
-                   L43 10
-                   L41 19"
+                d="M48 13
+                   C54 13 58 15 61 18"
                 fill="none"
                 stroke="#f9ad69"
-                stroke-width="3"
+                stroke-width="2"
                 stroke-linecap="round"
-                stroke-linejoin="round"
+                opacity="0.8"
             />
 
         </svg>
