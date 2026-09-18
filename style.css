@@ -88,11 +88,18 @@ body {
 
     color: white;
 
-    background: linear-gradient(
+    /* background: linear-gradient(
         135deg,
         #7c3aed,
         #06b6d4
+    ); */
+    
+    background: linear-gradient(
+        135deg,
+        #19cdbf,
+        #f9ad69
     );
+
 
     box-shadow: 0 8px 20px rgba(124,58,237,0.3);
 }
