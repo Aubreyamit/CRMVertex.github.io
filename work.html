@@ -1,131 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Work — Maya Lindqvist</title>
-<meta name="description" content="Selected design and engineering projects by Maya Lindqvist.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TrailBlazeTech | Work</title>
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
+
 <body>
 
-<header class="site-header">
-  <div class="container header-inner">
-    <a href="index.html" class="logo">Maya Lindqvist</a>
-    <nav class="site-nav">
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="work.html" class="active">Work</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-      </button>
-    </nav>
-  </div>
-</header>
+    <!-- HEADER -->
 
-<main>
+    <header class="header">
 
-  <section class="hero container" style="grid-template-columns: 1fr; padding-bottom: 60px;">
-    <h1 style="font-size: clamp(36px, 4.6vw, 54px);">Work</h1>
-  </section>
+        <div class="logo">
+            <span class="logo-icon">✦</span>
+            TrailBlazeTech
+        </div>
 
-  <section class="section container" style="padding-top: 0;">
+        <nav class="navbar">
 
-    <div class="project-detail" id="northwind">
-      <div class="project-visual"></div>
-      <div class="project-detail-head">
-        <h3>Northwind</h3>
-        <span class="role">Lead product designer · 2024</span>
-      </div>
-      <p class="desc">A ground-up redesign of a regional bank's mobile app. The brief was simple to state and hard to do: make moving money feel calm. I rebuilt the transfer flow around a single running list of "who you pay," cutting the average transfer from nine taps to three and reducing support tickets about failed transfers by 31% in the first quarter.</p>
-      <div class="tags">
-        <span class="tag">Product design</span>
-        <span class="tag">Fintech</span>
-        <span class="tag">Design system</span>
-      </div>
+            <a href="index.html" target="_blank">Home</a>
+
+            <a href="work.html" target="_blank" class="active">
+                Work
+            </a>
+
+            <a href="about.html" target="_blank">
+                About
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- BODY -->
+
+    <main class="page">
+
+        <section class="page-heading">
+
+            <span class="tag">MY WORK</span>
+
+            <h1>
+                Things I've <span>Built</span>
+            </h1>
+
+            <p>
+                A collection of projects, experiments and technology
+                work that I've worked on or explored.
+            </p>
+
+        </section>
+
+
+        <section class="projects">
+
+
+            <article class="project-card">
+
+                <div class="project-number">
+                    01
+                </div>
+
+                <div class="project-icon">
+                    ☁️
+                </div>
+
+                <h2>Salesforce & Agentforce</h2>
+
+                <p>
+                    Experiments and projects involving Salesforce,
+                    Agentforce, Service Cloud, Experience Cloud and AI.
+                </p>
+
+                <span class="project-tag">
+                    Salesforce
+                </span>
+
+                <span class="project-tag">
+                    Agentforce
+                </span>
+
+            </article>
+
+
+            <article class="project-card">
+
+                <div class="project-number">
+                    02
+                </div>
+
+                <div class="project-icon">
+                    📊
+                </div>
+
+                <h2>Data & Integrations</h2>
+
+                <p>
+                    Working with APIs, Data Cloud, integrations,
+                    automation and connected systems.
+                </p>
+
+                <span class="project-tag">
+                    Data Cloud
+                </span>
+
+                <span class="project-tag">
+                    APIs
+                </span>
+
+            </article>
+
+
+            <article class="project-card">
+
+                <div class="project-number">
+                    03
+                </div>
+
+                <div class="project-icon">
+                    💻
+                </div>
+
+                <h2>Web Experiments</h2>
+
+                <p>
+                    Simple websites, prototypes and experiments
+                    built while learning modern web technologies.
+                </p>
+
+                <span class="project-tag">
+                    HTML
+                </span>
+
+                <span class="project-tag">
+                    CSS
+                </span>
+
+                <span class="project-tag">
+                    JavaScript
+                </span>
+
+            </article>
+
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <div class="footer-left">
+
+            <div class="logo">
+                <span class="logo-icon">✦</span>
+                TrailBlazeTech
+            </div>
+
+            <p>
+                Exploring technology and building useful things.
+            </p>
+
+        </div>
+
+
+        <div class="footer-contact">
+
+            <h3>Connect</h3>
+
+            <a href="mailto:your-email@example.com">
+                Email
+            </a>
+
+            <a href="#" onclick="openLinkedIn()">
+                LinkedIn
+            </a>
+
+            <a href="#" onclick="openGitHub()">
+                GitHub
+            </a>
+
+        </div>
+
+    </footer>
+
+
+    <div class="copyright">
+        © 2026 TrailBlazeTech. Built with HTML, CSS & JavaScript.
     </div>
 
-    <div class="project-detail" id="fieldnote">
-      <div class="project-visual"></div>
-      <div class="project-detail-head">
-        <h3>Fieldnote</h3>
-        <span class="role">Design &amp; iOS engineering · 2023</span>
-      </div>
-      <p class="desc">A journaling app built for field researchers who often work without signal. I designed and shipped the offline-first sync engine myself, alongside a voice-capture flow that transcribes notes locally on-device. Featured in the App Store's "Apps We Love" for productivity, spring 2023.</p>
-      <div class="tags">
-        <span class="tag">iOS</span>
-        <span class="tag">Swift</span>
-        <span class="tag">Offline-first</span>
-      </div>
-    </div>
 
-    <div class="project-detail" id="loop">
-      <div class="project-visual"></div>
-      <div class="project-detail-head">
-        <h3>Loop</h3>
-        <span class="role">Design systems lead · 2023</span>
-      </div>
-      <p class="desc">An open-source component library built to unify three competing internal design systems into one. Loop is now used by four product teams and has over 60 contributed components, with a token pipeline that keeps design and code in sync automatically.</p>
-      <div class="tags">
-        <span class="tag">React</span>
-        <span class="tag">Design tokens</span>
-        <span class="tag">Open source</span>
-      </div>
-    </div>
+    <script src="script.js"></script>
 
-    <div class="project-detail" id="harborlight">
-      <div class="project-visual"></div>
-      <div class="project-detail-head">
-        <h3>Harborlight</h3>
-        <span class="role">Product design · 2022</span>
-      </div>
-      <p class="desc">A scheduling tool for independent tutors, designed around a single calendar object that both the tutor and student can edit live. Grew from zero to 4,000 paying tutors in its first year without a dedicated marketing budget.</p>
-      <div class="tags">
-        <span class="tag">Web app</span>
-        <span class="tag">0 → 1</span>
-      </div>
-    </div>
-
-    <div class="project-detail" id="civic-ledger">
-      <div class="project-visual"></div>
-      <div class="project-detail-head">
-        <h3>Civic Ledger</h3>
-        <span class="role">Frontend engineering · 2021</span>
-      </div>
-      <p class="desc">A public dashboard visualizing municipal budget spending for three city governments, built with an emphasis on legibility for readers with no background in public finance. Data updates nightly from each city's open-data feed.</p>
-      <div class="tags">
-        <span class="tag">Data visualization</span>
-        <span class="tag">Civic tech</span>
-      </div>
-    </div>
-
-  </section>
-
-  <section class="section container">
-    <div class="contact-block">
-      <h2>Have a project in mind? I'm currently taking on new work for early 2027.</h2>
-      <a href="mailto:hello@mayalindqvist.com" class="btn btn-primary">Get in touch</a>
-    </div>
-  </section>
-
-</main>
-
-<footer class="site-footer">
-  <div class="container footer-inner">
-    <p>© 2026 Maya Lindqvist</p>
-    <ul class="footer-links">
-      <li><a href="https://github.com" target="_blank" rel="noopener">GitHub</a></li>
-      <li><a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
-      <li><a href="mailto:hello@mayalindqvist.com">hello@mayalindqvist.com</a></li>
-    </ul>
-  </div>
-</footer>
-
-<script src="script.js"></script>
 </body>
+
 </html>
