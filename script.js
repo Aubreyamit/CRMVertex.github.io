@@ -1,16 +1,16 @@
 document.addEventListener("DOMContentLoaded", function () {
   var toggle = document.querySelector(".nav-toggle");
-  var links = document.querySelector(".nav-links");
+  var nav = document.querySelector(".site-nav");
 
-  if (toggle && links) {
+  if (toggle && nav) {
     toggle.addEventListener("click", function () {
-      var isOpen = links.classList.toggle("open");
+      var isOpen = nav.classList.toggle("open");
       toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
     });
 
-    links.querySelectorAll("a").forEach(function (link) {
+    nav.querySelectorAll("a").forEach(function (link) {
       link.addEventListener("click", function () {
-        links.classList.remove("open");
+        nav.classList.remove("open");
         toggle.setAttribute("aria-expanded", "false");
       });
     });

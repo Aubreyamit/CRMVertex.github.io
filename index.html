@@ -14,74 +14,91 @@
 
 <header class="site-header">
   <div class="container header-inner">
-    <a href="index.html" class="logo">Maya Lindqvist</a>
+    <a href="./" class="logo"><span class="mark"></span>Maya Lindqvist</a>
     <nav class="site-nav">
       <ul class="nav-links">
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="work.html">Work</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="./" class="active">Home</a></li>
+        <li><a href="work/">Work</a></li>
+        <li><a href="about/">About</a></li>
       </ul>
-      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-      </button>
     </nav>
+    <a href="mailto:hello@mayalindqvist.com" class="btn btn-ghost btn-small header-cta">Get in touch</a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
   </div>
 </header>
 
 <main>
 
   <section class="hero container">
-    <h1>Interfaces that feel <em>inevitable</em> — like they couldn't have been built any other way.</h1>
+    <h1>Interfaces that feel <span class="gradient-text">inevitable</span> — like they couldn't have been built any other way.</h1>
     <div class="hero-meta">
       <p>I'm a product designer and frontend developer based in Copenhagen, working with early-stage teams to design and ship the products behind their idea.</p>
       <div class="hero-actions">
-        <a href="work.html" class="btn btn-primary">View the work</a>
-        <a href="about.html" class="btn btn-ghost">About me</a>
+        <a href="work/" class="btn btn-primary">View the work</a>
+        <a href="about/" class="btn btn-ghost">About me</a>
       </div>
+    </div>
+  </section>
+
+  <!-- About Me teaser — replace the avatar-placeholder div below with
+       <img src="your-photo.jpg" alt="Maya Lindqvist"> to add a real photo -->
+  <section class="section container about-me">
+    <div class="avatar">
+      <div class="avatar-inner">
+        <div class="avatar-placeholder">ML</div>
+        <!-- <img src="your-photo.jpg" alt="Maya Lindqvist"> -->
+      </div>
+    </div>
+    <div class="about-me-copy">
+      <h2 style="margin-bottom: 16px;">About me</h2>
+      <p>I've spent the last eight years as a design-and-code hybrid, usually the first design hire at an early-stage team. I care about interfaces that get out of the way, and the unglamorous systems work that makes a product hold together as it grows.</p>
+      <a href="about/" class="link-more" style="color: var(--accent-2); border-bottom: 1px solid var(--accent-2); padding-bottom: 2px; font-size: 15px;">Read the full story →</a>
     </div>
   </section>
 
   <section class="section container">
     <div class="section-head">
       <h2>Selected work</h2>
-      <a href="work.html" class="link-more">All projects</a>
+      <a href="work/" class="link-more">All projects</a>
     </div>
 
     <div class="work-list">
 
-      <a class="work-row" href="work.html#northwind">
+      <a class="work-row" href="work/#northwind">
         <span class="year">2024</span>
         <div class="work-main">
           <h3>Northwind</h3>
           <p>A ground-up redesign of a regional bank's mobile app, cutting the average transfer flow from nine taps to three.</p>
         </div>
         <div class="tags">
-          <span class="tag">Product design</span>
-          <span class="tag">Fintech</span>
+          <span class="tag tag-blue">Product design</span>
+          <span class="tag tag-violet">Fintech</span>
         </div>
       </a>
 
-      <a class="work-row" href="work.html#fieldnote">
+      <a class="work-row" href="work/#fieldnote">
         <span class="year">2023</span>
         <div class="work-main">
           <h3>Fieldnote</h3>
           <p>A journaling app for researchers, built around voice capture and offline-first sync across devices.</p>
         </div>
         <div class="tags">
-          <span class="tag">iOS</span>
-          <span class="tag">Design system</span>
+          <span class="tag tag-teal">iOS</span>
+          <span class="tag tag-coral">Design system</span>
         </div>
       </a>
 
-      <a class="work-row" href="work.html#loop">
+      <a class="work-row" href="work/#loop">
         <span class="year">2023</span>
         <div class="work-main">
           <h3>Loop</h3>
           <p>An open-source component library adopted by four internal product teams, replacing three competing design systems.</p>
         </div>
         <div class="tags">
-          <span class="tag">Engineering</span>
-          <span class="tag">Open source</span>
+          <span class="tag tag-blue">Engineering</span>
+          <span class="tag tag-violet">Open source</span>
         </div>
       </a>
 
