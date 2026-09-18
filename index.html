@@ -1,130 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Maya Lindqvist — Product Designer &amp; Developer</title>
-<meta name="description" content="Portfolio of Maya Lindqvist, a product designer and frontend developer building considered digital products.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TrailBlazeTech | Home</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header class="site-header">
-  <div class="container header-inner">
-    <a href="./" class="logo"><span class="mark"></span>Maya Lindqvist</a>
-    <nav class="site-nav">
-      <ul class="nav-links">
-        <li><a href="./" class="active">Home</a></li>
-        <li><a href="work/">Work</a></li>
-        <li><a href="about/">About</a></li>
-      </ul>
-    </nav>
-    <a href="mailto:hello@mayalindqvist.com" class="btn btn-ghost btn-small header-cta">Get in touch</a>
-    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-    </button>
-  </div>
-</header>
+    <!-- HEADER -->
+    <header class="header">
 
-<main>
-
-  <section class="hero container">
-    <h1>Interfaces that feel <span class="gradient-text">inevitable</span> — like they couldn't have been built any other way.</h1>
-    <div class="hero-meta">
-      <p>I'm a product designer and frontend developer based in Copenhagen, working with early-stage teams to design and ship the products behind their idea.</p>
-      <div class="hero-actions">
-        <a href="work/" class="btn btn-primary">View the work</a>
-        <a href="about/" class="btn btn-ghost">About me</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- About Me teaser — replace the avatar-placeholder div below with
-       <img src="your-photo.jpg" alt="Maya Lindqvist"> to add a real photo -->
-  <section class="section container about-me">
-    <div class="avatar">
-      <div class="avatar-inner">
-        <div class="avatar-placeholder">ML</div>
-        <!-- <img src="your-photo.jpg" alt="Maya Lindqvist"> -->
-      </div>
-    </div>
-    <div class="about-me-copy">
-      <h2 style="margin-bottom: 16px;">About me</h2>
-      <p>I've spent the last eight years as a design-and-code hybrid, usually the first design hire at an early-stage team. I care about interfaces that get out of the way, and the unglamorous systems work that makes a product hold together as it grows.</p>
-      <a href="about/" class="link-more" style="color: var(--accent-2); border-bottom: 1px solid var(--accent-2); padding-bottom: 2px; font-size: 15px;">Read the full story →</a>
-    </div>
-  </section>
-
-  <section class="section container">
-    <div class="section-head">
-      <h2>Selected work</h2>
-      <a href="work/" class="link-more">All projects</a>
-    </div>
-
-    <div class="work-list">
-
-      <a class="work-row" href="work/#northwind">
-        <span class="year">2024</span>
-        <div class="work-main">
-          <h3>Northwind</h3>
-          <p>A ground-up redesign of a regional bank's mobile app, cutting the average transfer flow from nine taps to three.</p>
+        <div class="logo">
+            <span class="logo-icon">✦</span>
+            <span>TrailBlazeTech</span>
         </div>
-        <div class="tags">
-          <span class="tag tag-blue">Product design</span>
-          <span class="tag tag-violet">Fintech</span>
-        </div>
-      </a>
 
-      <a class="work-row" href="work/#fieldnote">
-        <span class="year">2023</span>
-        <div class="work-main">
-          <h3>Fieldnote</h3>
-          <p>A journaling app for researchers, built around voice capture and offline-first sync across devices.</p>
-        </div>
-        <div class="tags">
-          <span class="tag tag-teal">iOS</span>
-          <span class="tag tag-coral">Design system</span>
-        </div>
-      </a>
+        <nav class="navbar">
+            <a href="index.html" target="_blank">Home</a>
+            <a href="work.html" target="_blank">Work</a>
+            <a href="about.html" target="_blank">About</a>
+        </nav>
 
-      <a class="work-row" href="work/#loop">
-        <span class="year">2023</span>
-        <div class="work-main">
-          <h3>Loop</h3>
-          <p>An open-source component library adopted by four internal product teams, replacing three competing design systems.</p>
-        </div>
-        <div class="tags">
-          <span class="tag tag-blue">Engineering</span>
-          <span class="tag tag-violet">Open source</span>
-        </div>
-      </a>
+    </header>
 
+
+    <!-- MAIN BODY -->
+    <main>
+
+        <!-- HERO -->
+        <section class="hero">
+
+            <div class="hero-text">
+
+                <span class="tag">WELCOME TO TRAILBLAZETECH</span>
+
+                <h1>
+                    Exploring Technology.
+                    <span>Building Ideas.</span>
+                </h1>
+
+                <p>
+                    A simple technology space where ideas, projects,
+                    Salesforce experiments and learning journeys come together.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="work.html" target="_blank" class="primary-btn">
+                        Explore My Work →
+                    </a>
+
+                    <a href="about.html" target="_blank" class="secondary-btn">
+                        About Me
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-card">
+
+                <div class="floating-card card-one">
+                    ⚡
+                    <strong>Build</strong>
+                    <small>Turn ideas into projects</small>
+                </div>
+
+                <div class="floating-card card-two">
+                    ☁️
+                    <strong>Learn</strong>
+                    <small>Explore modern technology</small>
+                </div>
+
+                <div class="floating-card card-three">
+                    🚀
+                    <strong>Grow</strong>
+                    <small>Keep moving forward</small>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- THREE CONTENT PARTS -->
+        <section class="content-section">
+
+            <div class="content-card">
+
+                <div class="icon">💡</div>
+
+                <h2>Ideas</h2>
+
+                <p>
+                    A place for interesting ideas, experiments and
+                    concepts that can eventually become useful projects.
+                </p>
+
+            </div>
+
+
+            <div class="content-card featured">
+
+                <div class="icon">🛠️</div>
+
+                <h2>Work</h2>
+
+                <p>
+                    Explore projects, Salesforce development,
+                    integrations and other technology work.
+                </p>
+
+                <a href="work.html" target="_blank">
+                    View Projects →
+                </a>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <div class="icon">🌱</div>
+
+                <h2>Learning</h2>
+
+                <p>
+                    Notes and experiments around Salesforce,
+                    Data Cloud, AI and modern development.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- BOTTOM SECTION -->
+        <section class="bottom-banner">
+
+            <div>
+
+                <span class="tag">THE JOURNEY</span>
+
+                <h2>
+                    Learn. Build. Experiment. Repeat.
+                </h2>
+
+                <p>
+                    TrailBlazeTech is a small space for documenting
+                    technology experiments and projects.
+                </p>
+
+            </div>
+
+            <div class="banner-symbol">
+                ✦
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-left">
+
+            <div class="logo">
+                <span class="logo-icon">✦</span>
+                TrailBlazeTech
+            </div>
+
+            <p>
+                Exploring technology and building useful things.
+            </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <h3>Navigate</h3>
+
+            <a href="index.html" target="_blank">Home</a>
+            <a href="work.html" target="_blank">Work</a>
+            <a href="about.html" target="_blank">About</a>
+
+        </div>
+
+
+        <div class="footer-contact">
+
+            <h3>Connect</h3>
+
+            <a href="mailto:your-email@example.com">
+                Email
+            </a>
+
+            <a href="#" onclick="openLinkedIn()">
+                LinkedIn
+            </a>
+
+            <a href="#" onclick="openGitHub()">
+                GitHub
+            </a>
+
+        </div>
+
+    </footer>
+
+
+    <div class="copyright">
+        © 2026 TrailBlazeTech. Built with HTML, CSS & JavaScript.
     </div>
-  </section>
 
-  <section class="section container">
-    <div class="contact-block">
-      <h2>Have a project in mind? I'm currently taking on new work for early 2027.</h2>
-      <a href="mailto:hello@mayalindqvist.com" class="btn btn-primary">Get in touch</a>
-    </div>
-  </section>
 
-</main>
+    <script src="script.js"></script>
 
-<footer class="site-footer">
-  <div class="container footer-inner">
-    <p>© 2026 Maya Lindqvist</p>
-    <ul class="footer-links">
-      <li><a href="https://github.com" target="_blank" rel="noopener">GitHub</a></li>
-      <li><a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
-      <li><a href="mailto:hello@mayalindqvist.com">hello@mayalindqvist.com</a></li>
-    </ul>
-  </div>
-</footer>
-
+</body>
+</html>
 <script src="script.js"></script>
 </body>
 </html>
