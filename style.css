@@ -73,23 +73,20 @@ body {
     color: #172033;
 } */
 .logo {
-
     display: flex;
-
     align-items: center;
-
     gap: 10px;
 
     font-size: 20px;
-
     font-weight: 700;
 
     color: #172033;
 }
-.logo-icon {
 
-    width: 38px;
-    height: 38px;
+
+.logo-icon {
+    width: 42px;
+    height: 42px;
 
     display: flex;
     align-items: center;
@@ -106,18 +103,18 @@ body {
     box-shadow:
         0 8px 20px rgba(25, 205, 191, 0.25);
 
-    overflow: hidden;
+    overflow: visible;
 }
 
 
 .logo-icon svg {
-
-    width: 28px;
-    height: 28px;
+    width: 32px;
+    height: 32px;
 
     display: block;
-}
 
+    overflow: visible;
+}
 /* .logo-icon {
 
     width: 38px;
