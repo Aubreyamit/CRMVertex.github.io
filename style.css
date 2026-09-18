@@ -636,23 +636,7 @@ body {
     color: white;
 }
 
-.footer {
-    background: linear-gradient(
-        to right,
-        #19cdbf,
-        #f9ad69
-    );
 
-    color: white;
-
-    padding: 55px max(4%, calc((100% - 1250px) / 2));
-
-    display: grid;
-
-    grid-template-columns: 2fr 1fr 1fr;
-
-    gap: 40px;
-}
 
 
 .copyright {
